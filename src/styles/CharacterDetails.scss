@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__episode {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .button-fav {
+    margin-top: 20px;
+  }
+}
